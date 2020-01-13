@@ -262,3 +262,57 @@ Processing by RecipesController#create as */*
 Completed 201 Created in 10ms (Views: 2.5ms | ActiveRecord: 1.7ms | Allocations: 2491)
 
 
+Started GET "/recipes" for ::1 at 2020-01-13 18:05:06 -0500
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (8.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 18.1ms | ActiveRecord: 8.2ms | Allocations: 2159)
+
+
+Started GET "/recipes/1" for ::1 at 2020-01-13 18:05:10 -0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+Completed 200 OK in 8ms (Views: 1.4ms | ActiveRecord: 1.8ms | Allocations: 898)
+
+
+Started GET "/recipes/6" for ::1 at 2020-01-13 18:05:15 -0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms | Allocations: 615)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=6):
+  
+app/controllers/recipes_controller.rb:50:in `set_recipe'
+Started GET "/recipes/5" for ::1 at 2020-01-13 18:05:20 -0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 638)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=5):
+  
+app/controllers/recipes_controller.rb:50:in `set_recipe'
+Started GET "/recipes/4" for ::1 at 2020-01-13 18:05:30 -0500
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 864)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 18:05:37 -0500
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 2011)
+
+
