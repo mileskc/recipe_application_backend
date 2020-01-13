@@ -85,3 +85,180 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 40ms (Views: 30.3ms | ActiveRecord: 7.5ms | Allocations: 11577)
 
 
+Started GET "/recipes" for ::1 at 2020-01-13 15:52:04 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (6.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 47ms (Views: 32.5ms | ActiveRecord: 6.5ms | Allocations: 2484)
+
+
+Started DELETE "/recipes/6" for ::1 at 2020-01-13 15:52:34 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:44:in `set_recipe'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `destroy'
+  [1m[36mRecipe Destroy (2.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/recipes_controller.rb:38:in `destroy'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `destroy'
+Completed 204 No Content in 53ms (ActiveRecord: 4.0ms | Allocations: 3951)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 15:52:38 -0500
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 1.5ms | Allocations: 2071)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 15:55:48 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.6ms | Allocations: 2073)
+
+
+Started PUT "/recipes/1" for ::1 at 2020-01-13 15:56:19 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:44:in `set_recipe'
+Completed 400 Bad Request in 23ms (ActiveRecord: 0.4ms | Allocations: 658)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:49:in `recipe_params'
+app/controllers/recipes_controller.rb:29:in `update'
+Started POST "/recipes/" for ::1 at 2020-01-13 15:59:17 -0500
+Processing by RecipesController#create as */*
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:49:in `recipe_params'
+app/controllers/recipes_controller.rb:18:in `create'
+Started PUT "/recipes/1" for ::1 at 2020-01-13 16:01:56 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 21.9ms | Allocations: 81214)
+
+
+  
+NameError (undefined local variable or method `post' for #<RecipesController:0x00007fc1da61bae0>):
+  
+app/controllers/recipes_controller.rb:38:in `update'
+Started PUT "/recipes/1" for ::1 at 2020-01-13 16:04:06 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+Completed 400 Bad Request in 39ms (ActiveRecord: 3.7ms | Allocations: 9414)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:55:in `recipe_params'
+app/controllers/recipes_controller.rb:38:in `update'
+Started PUT "/recipes/1" for ::1 at 2020-01-13 16:07:39 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.3ms | Allocations: 1072)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:55:in `recipe_params'
+app/controllers/recipes_controller.rb:38:in `update'
+Started PUT "/recipes/1" for ::1 at 2020-01-13 16:07:57 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.4ms | Allocations: 1072)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:55:in `recipe_params'
+app/controllers/recipes_controller.rb:38:in `update'
+Started POST "/recipes" for ::1 at 2020-01-13 16:10:22 -0500
+Processing by RecipesController#create as */*
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:55:in `recipe_params'
+app/controllers/recipes_controller.rb:18:in `create'
+Started GET "/recipes" for ::1 at 2020-01-13 16:19:10 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 21.6ms | ActiveRecord: 5.3ms | Allocations: 11245)
+
+
+Started DELETE "/recipes/5" for ::1 at 2020-01-13 16:19:20 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+  [1m[36mRecipe Destroy (1.9ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+Completed 204 No Content in 14ms (ActiveRecord: 3.5ms | Allocations: 2713)
+
+
+Started PUT "/recipes/1" for ::1 at 2020-01-13 16:20:01 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe"}, "id"=>"1"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+  [1m[36mRecipe Update (1.1ms)[0m  [1m[33mUPDATE "recipes" SET "author" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["author", "Giusseppe"], ["updated_at", "2020-01-13 21:20:01.098306"], ["id", 1]]
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 2.0ms | Allocations: 3609)
+
+
+Started POST "/recipes" for ::1 at 2020-01-13 16:20:28 -0500
+Processing by RecipesController#create as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+  [1m[36mRecipe Create (1.1ms)[0m  [1m[32mINSERT INTO "recipes" ("author", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["author", "Giusseppe"], ["created_at", "2020-01-13 21:20:28.737659"], ["updated_at", "2020-01-13 21:20:28.737659"]]
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+Completed 201 Created in 10ms (Views: 2.5ms | ActiveRecord: 1.7ms | Allocations: 2491)
+
+
