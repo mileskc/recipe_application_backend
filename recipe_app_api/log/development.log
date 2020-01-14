@@ -404,3 +404,365 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.3ms | Allocations: 2021)
 
 
+Started GET "/recipes" for ::1 at 2020-01-13 21:41:59 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 19.6ms | ActiveRecord: 4.4ms | Allocations: 11175)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 21:44:27 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 20.6ms | ActiveRecord: 3.8ms | Allocations: 11175)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 21:44:50 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 2.3ms | Allocations: 2021)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 22:10:01 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 53ms (Views: 39.2ms | ActiveRecord: 10.9ms | Allocations: 11175)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 22:10:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 2.9ms | Allocations: 2021)
+
+
+Started GET "/recipes" for ::1 at 2020-01-13 22:10:32 -0500
+Processing by RecipesController#index as HTML
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms | Allocations: 2021)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 06:52:37 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.9ms | Allocations: 2159)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 06:53:34 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 13.2ms | ActiveRecord: 0.6ms | Allocations: 2021)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:13:27 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.6ms | Allocations: 2148)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:14:56 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (3.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 3.1ms | Allocations: 2003)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:23:09 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 1.1ms | Allocations: 2147)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:27:27 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 2003)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:28:38 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 2003)
+
+
+Started POST "/recipes" for ::1 at 2020-01-14 07:29:31 -0500
+Processing by RecipesController#create as */*
+Completed 400 Bad Request in 12ms (ActiveRecord: 0.0ms | Allocations: 126)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: recipe):
+  
+app/controllers/recipes_controller.rb:55:in `recipe_params'
+app/controllers/recipes_controller.rb:18:in `create'
+Started POST "/recipes" for ::1 at 2020-01-14 07:29:47 -0500
+Processing by RecipesController#create as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe Burger"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+  [1m[36mRecipe Create (15.4ms)[0m  [1m[32mINSERT INTO "recipes" ("author", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["author", "Giusseppe Burger"], ["created_at", "2020-01-14 12:29:47.103469"], ["updated_at", "2020-01-14 12:29:47.103469"]]
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:20:in `create'
+Completed 201 Created in 41ms (Views: 0.8ms | ActiveRecord: 22.8ms | Allocations: 2639)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:29:50 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 2187)
+
+
+Started PUT "/recipes/8" for ::1 at 2020-01-14 07:30:09 -0500
+Processing by RecipesController#update as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe Burger New"}, "id"=>"8"}
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[36mCACHE Recipe Load (0.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:37:in `update'
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+  [1m[36mRecipe Update (8.8ms)[0m  [1m[33mUPDATE "recipes" SET "author" = $1, "updated_at" = $2 WHERE "recipes"."id" = $3[0m  [["author", "Giusseppe Burger New"], ["updated_at", "2020-01-14 12:30:09.182936"], ["id", 8]]
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:38:in `update'
+Completed 200 OK in 33ms (Views: 0.5ms | ActiveRecord: 15.5ms | Allocations: 3838)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:30:12 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 2187)
+
+
+Started GET "/recipes/8" for ::1 at 2020-01-14 07:30:28 -0500
+Processing by RecipesController#show as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe Burger New"}, "id"=>"8"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 793)
+
+
+Started DELETE "/recipes/7" for ::1 at 2020-01-14 07:30:41 -0500
+Processing by RecipesController#destroy as */*
+  Parameters: {"recipe"=>{"author"=>"Giusseppe Burger New"}, "id"=>"7"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/recipes_controller.rb:50:in `set_recipe'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+  [1m[36mRecipe Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/recipes_controller.rb:44:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 3.3ms | Allocations: 2238)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 07:30:45 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (8.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 8.6ms | Allocations: 2003)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 09:05:59 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 23.0ms | ActiveRecord: 14.7ms | Allocations: 11175)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 09:06:06 -0500
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 2021)
+
+
+Started GET "/recipes" for ::1 at 2020-01-14 09:11:03 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (2.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 22.7ms | ActiveRecord: 7.7ms | Allocations: 11175)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (8.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (65.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "recipe_app_api_development"[0m
+  [1m[35m (38.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "recipe_app_api_test"[0m
+  [1m[35m (214.0ms)[0m  [1m[35mCREATE DATABASE "recipe_app_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (66.2ms)[0m  [1m[35mCREATE DATABASE "recipe_app_api_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (1.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (25.8ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying, "author" character varying, "img" character varying, "description" character varying, "prep_time" integer, "serving_size" integer, "calories_count" integer, "star_rating" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "directions" text[] DEFAULT '{}', "ingredients" character varying[] DEFAULT '{}')[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200113171148)[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200113170704),
+(20200113170951);
+
+[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-14 14:12:43.437036"], ["updated_at", "2020-01-14 14:12:43.437036"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "738bb4ef6df0b3ed4fcfcea3d5571b8eca03c1f0"], ["created_at", "2020-01-14 14:12:43.445193"], ["updated_at", "2020-01-14 14:12:43.445193"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying, "author" character varying, "img" character varying, "description" character varying, "prep_time" integer, "serving_size" integer, "calories_count" integer, "star_rating" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "directions" text[] DEFAULT '{}', "ingredients" character varying[] DEFAULT '{}')[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200113171148)[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200113170704),
+(20200113170951);
+
+[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-14 14:12:43.492079"], ["updated_at", "2020-01-14 14:12:43.492079"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-01-14 14:12:43.496558"], ["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "738bb4ef6df0b3ed4fcfcea3d5571b8eca03c1f0"], ["created_at", "2020-01-14 14:12:43.500607"], ["updated_at", "2020-01-14 14:12:43.500607"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Mushroom Risotto"], ["author", "Jian Yang"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Breaded fried chicken with waffles, and a side of maple syrup."], ["prep_time", 22], ["serving_size", 1], ["calories_count", 394], ["star_rating", 5], ["created_at", "2020-01-14 14:12:43.716011"], ["updated_at", "2020-01-14 14:12:43.716011"], ["directions", "{\"Cley Cerwyn\",\"Alester Norcross\",\"Aemon Costayne\"}"], ["ingredients", "{Asafoetida,\"Rice Noodles\",\"Green Beans\"}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Ebiten maki"], ["author", "Nelson \"Big Head\" Bighetti"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder."], ["prep_time", 16], ["serving_size", 3], ["calories_count", 388], ["star_rating", 4], ["created_at", "2020-01-14 14:12:43.720073"], ["updated_at", "2020-01-14 14:12:43.720073"], ["directions", "{\"Robert Ashford\",\"Beron Stark\",\"Balon Botley\"}"], ["ingredients", "{\"File Powder\",Tea,Kudzu}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Cheeseburger"], ["author", "Bertram Gilfoyle"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder."], ["prep_time", 24], ["serving_size", 1], ["calories_count", 270], ["star_rating", 3], ["created_at", "2020-01-14 14:12:43.723376"], ["updated_at", "2020-01-14 14:12:43.723376"], ["directions", "{\"Lymond Goodbrook\",\"Daeron I Targaryen\",Dennet}"], ["ingredients", "{Peanuts,Coffee,\"Vegetable Spaghetti\"}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Kebab"], ["author", "Ed Chen"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham."], ["prep_time", 30], ["serving_size", 4], ["calories_count", 367], ["star_rating", 5], ["created_at", "2020-01-14 14:12:43.734014"], ["updated_at", "2020-01-14 14:12:43.734014"], ["directions", "{Argilac,Dudley,Ezzara}"], ["ingredients", "{Olives,\"Mountain Bread\",Apples}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Cheeseburger"], ["author", "Russ Hanneman"], ["img", "https://loremflickr.com/300/300/food"], ["description", "28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides."], ["prep_time", 30], ["serving_size", 3], ["calories_count", 351], ["star_rating", 3], ["created_at", "2020-01-14 14:12:43.737130"], ["updated_at", "2020-01-14 14:12:43.737130"], ["directions", "{Melicent,Alayaya,\"Helicent Uffering\"}"], ["ingredients", "{Passionfruit,Chicken,\"Borlotti Beans\"}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Pork Belly Buns"], ["author", "Jian Yang"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes."], ["prep_time", 30], ["serving_size", 4], ["calories_count", 305], ["star_rating", 5], ["created_at", "2020-01-14 14:12:43.740486"], ["updated_at", "2020-01-14 14:12:43.740486"], ["directions", "{Hullen,Rafe,\"Barbara Bracken\"}"], ["ingredients", "{\"Malt Vinegar\",\"Corn Tortilla\",\"Pinto Beans\"}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/recipes" for ::1 at 2020-01-14 09:12:55 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 25.4ms | ActiveRecord: 5.2ms | Allocations: 11491)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (40.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "recipe_app_api_development"[0m
+  [1m[35m (25.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "recipe_app_api_test"[0m
+  [1m[35m (162.2ms)[0m  [1m[35mCREATE DATABASE "recipe_app_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (68.7ms)[0m  [1m[35mCREATE DATABASE "recipe_app_api_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying, "author" character varying, "img" character varying, "description" character varying, "prep_time" integer, "serving_size" integer, "calories_count" integer, "star_rating" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "directions" text[] DEFAULT '{}', "ingredients" character varying[] DEFAULT '{}')[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200113171148)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200113170704),
+(20200113170951);
+
+[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-14 14:13:26.635379"], ["updated_at", "2020-01-14 14:13:26.635379"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "738bb4ef6df0b3ed4fcfcea3d5571b8eca03c1f0"], ["created_at", "2020-01-14 14:13:26.642041"], ["updated_at", "2020-01-14 14:13:26.642041"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "recipes" CASCADE[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" bigserial primary key, "name" character varying, "author" character varying, "img" character varying, "description" character varying, "prep_time" integer, "serving_size" integer, "calories_count" integer, "star_rating" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "directions" text[] DEFAULT '{}', "ingredients" character varying[] DEFAULT '{}')[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200113171148)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200113170704),
+(20200113170951);
+
+[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-14 14:13:26.681614"], ["updated_at", "2020-01-14 14:13:26.681614"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-01-14 14:13:26.685441"], ["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "738bb4ef6df0b3ed4fcfcea3d5571b8eca03c1f0"], ["created_at", "2020-01-14 14:13:26.689006"], ["updated_at", "2020-01-14 14:13:26.689006"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.7ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Pork Belly Buns"], ["author", "Nelson \"Big Head\" Bighetti"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream."], ["prep_time", 17], ["serving_size", 1], ["calories_count", 178], ["star_rating", 3], ["created_at", "2020-01-14 14:13:26.896575"], ["updated_at", "2020-01-14 14:13:26.896575"], ["directions", "{Umfred,\"Rupert Brax\",\"Steffon Hollard\"}"], ["ingredients", "{\"Bean Shoots\",\"Corella Pear\",Starfruit}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "California Maki"], ["author", "Jack \"Action Jack\" Barker"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread."], ["prep_time", 20], ["serving_size", 4], ["calories_count", 222], ["star_rating", 5], ["created_at", "2020-01-14 14:13:26.900454"], ["updated_at", "2020-01-14 14:13:26.900454"], ["directions", "{\"Wendel Manderly\",Hobb,Rossart}"], ["ingredients", "{\"Taleggio Cheese\",Warehou,Aubergine}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Pork Sausage Roll"], ["author", "Dinesh Chugtai"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Fresh Norwegian salmon, lightly brushed with our herbed Dijon mustard sauce, with choice of two sides."], ["prep_time", 30], ["serving_size", 4], ["calories_count", 182], ["star_rating", 2], ["created_at", "2020-01-14 14:13:26.903471"], ["updated_at", "2020-01-14 14:13:26.903471"], ["directions", "{\"Warryn Beesbury\",Runciter,\"Gormon Tyrell\"}"], ["ingredients", "{Grapefruit,Soymilk,\"Goat Milk\"}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Barbecue Ribs"], ["author", "Gavin Belson"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant."], ["prep_time", 25], ["serving_size", 1], ["calories_count", 191], ["star_rating", 2], ["created_at", "2020-01-14 14:13:26.914594"], ["updated_at", "2020-01-14 14:13:26.914594"], ["directions", "{\"Mathis Rowan\",\"Artos Stark\",Luwin}"], ["ingredients", "{Pork,Cantaloupe,\"Snowpea sprouts\"}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Fettuccine Alfredo"], ["author", "Peter Gregory"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Three egg whites with spinach, mushrooms, caramelized onions, tomatoes and low-fat feta cheese. With herbed quinoa, and your choice of rye or whole-grain toast."], ["prep_time", 16], ["serving_size", 1], ["calories_count", 312], ["star_rating", 4], ["created_at", "2020-01-14 14:13:26.917589"], ["updated_at", "2020-01-14 14:13:26.917589"], ["directions", "{\"Eddard Stark\",Cass,\"Tycho Nestoris\"}"], ["ingredients", "{\"Chilli Pepper\",Okra,\"Avocado Oil\"}"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "author", "img", "description", "prep_time", "serving_size", "calories_count", "star_rating", "created_at", "updated_at", "directions", "ingredients") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12) RETURNING "id"[0m  [["name", "Peking Duck"], ["author", "Bertram Gilfoyle"], ["img", "https://loremflickr.com/300/300/food"], ["description", "Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant."], ["prep_time", 25], ["serving_size", 4], ["calories_count", 183], ["star_rating", 2], ["created_at", "2020-01-14 14:13:26.920642"], ["updated_at", "2020-01-14 14:13:26.920642"], ["directions", "{\"Lyra Mormont\",\"Minisa Whent\",\"Daeron I Targaryen\"}"], ["ingredients", "{Pasta,Rosemary,Lemongrass}"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/recipes" for ::1 at 2020-01-14 09:13:33 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/recipes_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 24.2ms | ActiveRecord: 10.8ms | Allocations: 11493)
+
+
