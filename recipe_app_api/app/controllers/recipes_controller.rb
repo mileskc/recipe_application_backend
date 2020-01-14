@@ -3,7 +3,7 @@ class RecipesController < ApplicationController
 
   # GET /recipes
   def index
-    @recipes = Recipe.all
+    @recipes = Recipe.all.reverse
 
     render json: @recipes
   end
