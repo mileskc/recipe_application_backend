@@ -17,18 +17,8 @@
         serving_size: Faker::Number.between(from: 1, to: 4),
         calories_count: Faker::Number.between(from: 100, to: 400),
         star_rating: Faker::Number.between(from: 1, to: 5),
-        directions: [
-            # {
-            # step: Faker::TvShows::GameOfThrones.character
-            # }, 
-            # {
-            # step: Faker::TvShows::GameOfThrones.character
-            # }, 
-            # {
-            # step: Faker::TvShows::GameOfThrones.character
-            # }
-        ],
-        ingredients: [Faker::Food.ingredient,Faker::Food.ingredient,Faker::Food.ingredient]
+        directions: Faker::TvShows::GameOfThrones.character,
+        ingredients: Faker::Food.ingredient,
     )
 end
 
